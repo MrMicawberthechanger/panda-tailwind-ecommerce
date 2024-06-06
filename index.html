@@ -14,6 +14,9 @@
                     colors: {
                         clifford: '#da373d',
                         penguin: '#fffbeb',
+                        productbar: '#E5E5E5',
+                        title: '#363958',
+                        price: '#FABE4C',
 
                     }
                 }
@@ -23,10 +26,10 @@
 </head>
 
 <body>
-    <header class="bg-penguin">
-        <section class="container mx-auto flex items-center justify-around py-32">
-            <div class="space-y-6">
-                <h1 class="text-5xl font-bold uppercase">
+    <header class="bg-penguin ">
+        <section class="container mx-auto  sm:flex items-center justify-around pt-32 pb-14">
+            <div class="space-y-6 ms-14 sm:ms-0">
+                <h1 class="text-3xl sm:text-5xl font-bold uppercase">
                     <span class="	text-yellow-300">Be The Penguins</span>
                     <br>
                     <span class="	">of winter</span>
@@ -43,13 +46,175 @@
                     buy Now
                 </button>
             </div>
-            <div>
-                <img src="element/images/model.png" alt="">
+            <div class="ms-14 pt-8  sm:ms-0 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="element/images/model.png" alt="">
             </div>
         </section>
     </header>
 
+    <main class="bg-productbar pt-10">
+        <!-- Women Product -->
+        <section class="container mx-auto">
+            <h1 class="text-3xl font-semibold uppercase">Women Jacket</h1>
+            <div class="grid grid-cols-3 gap-6 drop-shadow-2xl pt-8">
+                <!-- women jacket-1 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
 
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-1.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- women jacket-2 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
+
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-2.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- women jacket-3 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
+
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-3.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="container mx-auto pt-8">
+            <h1 class="text-3xl font-semibold uppercase pt-8 pb-4">men Jacket</h1>
+            <div class="grid grid-cols-3 gap-6 drop-shadow-2xl pt-8">
+                <!-- men jacket-1 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
+
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-4.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!--men jacket-2 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
+
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-5.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- men jacket-3 -->
+                <div class="p-4 space-y-6 bg-white rounded-3xl">
+
+                    <div class="bg-slate-100 rounded-2xl p-4 ">
+                        <img src="element/images/jacket-6.png" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h1 class="text-xl font-bold uppercase text-title">Yellow Coat Jacket</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="flex items-center justify-between">
+                            <h1 class="text-4xl font-bold text-price">$234</h1>
+                            <button class="bg-[#A4BC46] uppercase font-semibold text-white py-5 px-9 rounded-lg	">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+
+                                buy Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+    </main>
 </body>
 
 </html>
